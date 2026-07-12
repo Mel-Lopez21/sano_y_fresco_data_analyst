@@ -1,9 +1,13 @@
-# 🛒 Sano y Fresco: End-to-End Data Analytics & Process Optimization
+# 🛒 Sano y Fresco: End-to-End Análisis de datos y Proceso de optimización
 
 ## 📊 Descripción del Proyecto
 Este proyecto es un análisis integral de datos "end-to-end" desarrollado para **Sano y Fresco**, una empresa de venta de productos de supermercado. A pesar de haber generado más de 39,8 millones de euros anuales, el negocio experimentó una drástica caída del 82% mes a mes en sus ingresos desde enero a diciembre. 
 
 El objetivo principal de este proyecto es identificar los cuellos de botella comerciales, diversificar el riesgo de un catálogo altamente concentrado en un solo departamento (que representa el 93% de las ventas) e incrementar el ticket medio actual de 19,34 € mediante la optimización operativa y estrategias de **cross-selling** (venta cruzada).
+
+## 📑 Informe Final
+Puedes leer el análisis estratégico completo y las recomendaciones para el negocio aquí:
+👉 **[Ver Informe Estratégico Final](./reportes/Nombre_de_tu_archivo.pdf)**
 
 ## 🛠️ Stack Tecnológico
 Para abarcar todas las fases del ciclo de vida del dato, se utilizó el siguiente stack:
@@ -18,7 +22,7 @@ Para abarcar todas las fases del ciclo de vida del dato, se utilizó el siguient
 *   `/dashboard`: Archivo `.pbix` con el tablero interactivo de Power BI.
 *   `/docs`: Documentación estratégica, levantamiento de requerimientos y plan de validación.
 *   `/images`: Graficas logos o tablas con información relevante.
-*   `/reportes`: Contiene el reporte final.
+*   `/reportes`: Informe final detallado con el análisis estratégico, conclusiones del negocio y recomendaciones accionables.
 
 ## 🚀 Hallazgos y Optimización de Procesos
 A través del Cuadro de Mando y el modelo analítico, se identificaron 399 reglas de asociación validadas estadísticamente. Esto permite ejecutar mejoras directas en dos frentes del negocio:
@@ -31,13 +35,13 @@ A través del Cuadro de Mando y el modelo analítico, se identificaron 399 regla
 
 ## 📷 Vistas del Dashboard
 
-[Visión General del Negocio](ruta/a/tu/imagen_dashboard_1.jpg)
+[Visión General del Negocio](images/dashboar1.PNG)
 *Dashboard estratégico mostrando la evolución de ventas y composición del ticket medio.*
 
-[Análisis de Afinidad y Cesta](ruta/a/tu/imagen_dashboard_2.jpg)
+[Análisis de Afinidad y Cesta](images/dashboar2.PNG)
 *Panel interactivo del Market Basket Analysis, filtrando las 'Reglas de Oro' para la toma de decisiones.*
 
 ## 📬 Contacto
 Si te interesa conversar sobre análisis de datos, optimización de procesos operativos o inteligencia de negocios, ¡conectemos!
 *   **LinkedIn:** [Melanie Lopez](https://www.linkedin.com/in/lopezchmelanie21/)
-*   **Email:** (lopez.melanie.eve21@gmail.com)
+*   **Email:** lopez.melanie.eve21@gmail.com
