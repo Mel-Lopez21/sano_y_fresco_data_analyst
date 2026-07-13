@@ -8,7 +8,7 @@
 
 ## 1. Resumen y Contexto del Negocio
 Durante el último año fiscal, **Sano y Fresco** generó un ingreso total de 39.854.875,32 €. A pesar de este volumen de facturación, el análisis de los datos transaccionales reveló alertas críticas para la sostenibilidad de la empresa:
-*   **Caída sostenida:** Se registró una alarmante disminución del 82% en los ingresos mensuales desde enero hasta diciembre.
+*   **Caída sostenida:** Se registró una llamativa disminución del 82% en los ingresos mensuales desde enero hasta diciembre.
 *   **Riesgo por concentración:** Existe una preocupante falta de diversificación, donde un solo departamento concentra aproximadamente el 93% de los ingresos totales. 
 *   **Micro-transacciones:** Contamos con un volumen altísimo de pedidos (más de 2 millones), pero con un valor promedio por pedido muy bajo, de apenas 19,34 €.
 
@@ -21,17 +21,22 @@ Para diagnosticar la situación comercial, el primer paso consistió en interrog
 
 ### A. Visión General y Tendencia de Ingresos
 Se evaluó la facturación global y su comportamiento a lo largo del tiempo para aislar la caída estacional y cuantificar el volumen del problema.
-![Consulta SQL - Tendencia de Ventas](../images/sql_01_ingresos.jpg)
+![Consulta SQL - Tendencia de Ventas](../images/ingresos_mensuales.PNG)
+
 *Consulta SQL utilizada para agrupar y sumar los ingresos mensuales.*
 
 ### B. Rendimiento por Secciones y Top Productos
 Para entender la concentración del riesgo en la cadena de suministro, se identificaron los artículos que sostienen el flujo de caja, destacando una altísima dependencia en productos orgánicos (particularmente Bananas y Fresas, que lideran el volumen de ventas).
-![Consulta SQL - Top Productos](../images/sql_02_productos.jpg)
+![Consulta SQL - Top Productos](../images/productos_generan_ganancia.PNG)
+
 *Query desarrollada para aislar el Top 10 de productos por ingresos y volumen de ventas.*
 
 ### C. Comportamiento del Cliente y Ticket Medio
 La base de clientes demostró estar muy fragmentada. Ningún cliente individual tiene un impacto significativo en los ingresos totales, lo que refuerza la necesidad operativa de aplicar estrategias de aumento del ticket medio en cada transacción.
-![Consulta SQL - Comportamiento de Clientes](../images/sql_03_clientes.jpg)
+
+![Consulta SQL - Comportamiento de Pedidos](../images/AVG_pedidos.PNG)
+![Comportamiento de Clientes](../images/AVG_compra_cliente.PNG)
+
 *Extracción del ticket medio por cliente y valor promedio por pedido.*
 
 ---
