@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="images/portada_sano_y_fresco.png" width="1000">
+  <img src="../images/portada_sano_y_fresco.png" width="1000">
 </p>
 
 ---
