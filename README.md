@@ -7,7 +7,7 @@ El objetivo principal de este proyecto es identificar los cuellos de botella com
 
 ## 📑 Informe Final
 Puedes leer el análisis estratégico completo y las recomendaciones para el negocio aquí:
-👉 **[Ver Informe Estratégico Final](./reportes/Nombre_de_tu_archivo.pdf)**
+👉 **[Ver Informe Estratégico Final](./informes)**
 
 ## 🛠️ Stack Tecnológico
 Para abarcar todas las fases del ciclo de vida del dato, se utilizó el siguiente stack:
